@@ -1,0 +1,15 @@
+# zone-agent dependencies  (Python 3.9+)
+# Zone detection is pure OpenCV — no torch, no transformers, no model download.
+# Works fully offline on any CPU.
+
+# --- core runtime (required to detect zones) ---
+pillow>=10.0
+opencv-python>=4.8
+numpy>=1.24
+
+# --- visualization (display cells in the notebook) ---
+matplotlib>=3.7
+
+# --- notebook runtime (only needed to run agent.ipynb interactively) ---
+jupyter>=1.0
+ipykernel>=6.29

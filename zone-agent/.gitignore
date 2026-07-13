@@ -1,0 +1,19 @@
+# Run history (generated per execution — do not commit)
+runs/
+
+# User-supplied input images (keep the folder, ignore its contents)
+images/*
+!images/.gitkeep
+
+# Python / venv
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# HuggingFace model cache (if placed locally)
+.cache/
+hf_cache/
+
+# Jupyter
+.ipynb_checkpoints/
